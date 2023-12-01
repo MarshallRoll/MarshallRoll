@@ -1,0 +1,36 @@
+---
+title: "Marshall Roll"
+about: 
+  id: intro-heading
+  template: trestles
+  image: images/headshot.jpg
+  image-shape: round
+  links:
+    - icon: github
+      href: https://github.com/yourusername
+personal: 
+  id: personal
+---
+
+::: {#intro-heading}
+Hi there! I'm Marshall Roll, a senior at Macalester College studying Applied Math & Statistics and Environmental Studies. I am particularly interested in data science and statistics and how cutting-edge artificial intelligence and machine learning tools can be applied in new ways to shed light on environmental issues and beyond to create a more equitable world in the face of injustices. I have a passion for interdisciplinary work that seeks to combine a variety of fields and I am hoping to explore this more in a graduate school program in statistics or biostatistics.
+
+## Education
+
+Macalester College \| St. Paul MN <br> B.A. in Applied Math & Statistics, Environmental Studies <br> Aug 2020 - May 2024
+:::
+
+::: {#personal}
+## Personal
+
+In addition to statistics and data science, I enjoy playing piano, spending time outdoors, and watching my favorite soccer team the Seattle Sounders!
+
+<p float="left">
+  <img src="images/sarchi.jpg" width="450" />
+  <img src="images/forest.jpg" width="250" /> 
+  <img src="images/wyoming.jpg" width="250" />
+  <img src="images/prairie.jpg" width="450" /> 
+</p>
+:::
+
+ 

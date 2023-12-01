@@ -1,0 +1,21 @@
+---
+title: "Equitability of Solar Energy in the United States"
+description: "LASSO regression analysis of factors governing urban photovoltaic system distribution"
+author: "Marshall Roll"
+date: '4/18/22'
+image: featured.png
+image-alt: side by side scatterplots
+
+---
+
+This project was completed for the Sustainable Cities course at Macalester College in collaboration with other environmental studies students. It seeks to analyze the factors underlying urban solar panel distribution across four American cities based on physical and demographic characteristics of each city. The full writeup can be found [here](https://github.com/MarshallRoll/College-Projects/blob/main/Equitability%20of%20Solar%20Energy%20in%20the%20United%20States.pdf).
+
+![](featured.png)
+
+## Abstract
+
+As American cities aim to cut carbon emissions, the broad uptake of photovoltaic systems (PVs) is crucial. However, previous research (Cook and Bird 2018; Barbose et al. 2021) suggests that PV distribution in American cities may be inequitable, which is harmful from both an environmental justice and carbon footprint mitigation perspective. This study aims to determine if PV distribution is proceeding inequitably by examining social and spatial trends governing installation levels in census tracts across several major US cities using linear and LASSO regression modeling. We find that there are significant social and spatial trends that determine PV installation rates in San Diego, but not in other studied cities. This modeling helps to determine which communities could benefit the most from future PV installation and provides insight into understanding how cities can distribute renewable energy more equitably.  
+
+### Acknowledgements
+
+This project was produced in collaboration with Elizabeth Schnaubelt, Noah Davidson, Miles Warshauer, and Seth Lorenzen under the guidance of Dr. Anika Bratt. 

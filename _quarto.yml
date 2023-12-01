@@ -1,0 +1,20 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Marshall Roll"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - projects.qmd
+
+format:
+  html:
+    theme: flatly
+    css: styles.css
+    toc: false
+
+editor: source
+

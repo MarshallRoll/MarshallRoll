@@ -1,0 +1,12 @@
+[
+  {
+    "listing": "/projects.html",
+    "items": [
+      "/projects/spatial/index.html",
+      "/projects/longitudinal/index.html",
+      "/projects/timeseries/index.html",
+      "/projects/clustering/index.html",
+      "/projects/envi294/index.html"
+    ]
+  }
+]

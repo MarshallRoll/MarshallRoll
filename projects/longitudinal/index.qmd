@@ -1,0 +1,14 @@
+---
+title: "Modeling the Progression of Reasoning Ability in Elderly Populations"
+author: "Marshall Roll, Brian Pryzby"
+date: '11/8/23'
+image: featured.png
+image_alt: side-by-side line graphs
+description: "Longitudinal analysis of the ACTIVE study using a generalized estimating equations (GEE) approach"
+---
+
+This project was completed for the Correlated Data course at Macalester College, analyzing long-term effects of brain-training on cognition, specifically looking at reasoning ability in older adults. The full write up can be viewed [here](https://github.com/MarshallRoll/College-Projects/blob/main/0_STAT452/Longitudinal_Data_Analysis/LongitudinalReport.pdf).
+
+## Abstract
+
+This study analyses the long-term impacts of individual reasoning outcomes within the ACTIVE study using a Generalized Estimating Equations (GEE) model. We conclude that given the frame of the study, with intermittent 'boosters' of training given, reasoning-directed training has no discernible long-term impact on the subjects' reasoning ability. It appears more likely that external outcomes relating to previous brain development have a strong impact on reasoning abilities, while failure to engage in active training will almost certainly result in reasoning decline.

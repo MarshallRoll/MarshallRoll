@@ -1,0 +1,14 @@
+---
+title: "Modeling Stroke Likelihood: A Hierarchical Clustering Approach"  
+author: "Marshall Roll"
+date: '12/8/22'
+image: featured.png
+image_alt: point clusters
+description: "Hierarchical clustering to determine underlying patterns in stroke likelhiood"
+---
+
+This project was completed for the Statistical Machine Learning course at Macalester College, analyzing stroke likelihood based on physical characteristics such as Body Mass Index and Average Glucose Levels. The project was completed as part of a larger machine learning analysis of stroke events in collaboration with Emily Neuman and Kenny Nhan. The Github repository can be viewed [here](https://github.com/MarshallRoll/College-Projects/blob/main/1_STAT253/README.md).
+
+## Abstract
+
+Using hierarchical clustering with complete linkage, we created 6 clusters and cut at a height of approximately 12.5 to uncover underlying patterns in the dataset that might shed light on the likelihood of patients to have a stroke event. We find that clusters with higher average glucose levels tend to have higher instances of stroke, whereas BMI does not tend to be as important in the dataset.
