@@ -134,7 +134,28 @@ ul.task-list li input[type="checkbox"] {
 <section id="personal" class="level2">
 <h2 data-anchor-id="personal">Personal</h2>
 <p>In addition to statistics and data science, I enjoy playing piano, spending time outdoors, and watching my favorite soccer team the Seattle Sounders!</p>
-<p float="left">
+<style>
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  p {
+    text-align: center;
+  }
+
+
+  @media only screen and (max-width: 600px) {
+    p {
+      text-align: left;
+    }
+
+    img {
+      width: 100%;
+    }
+  }
+</style>
+<p>
 <img src="images/sarchi.jpg" width="450"> <img src="images/forest.jpg" width="250"> <img src="images/wyoming.jpg" width="250"> <img src="images/prairie.jpg" width="450">
 </p>
 </section>
