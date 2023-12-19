@@ -31,10 +31,6 @@ In addition to statistics and data science, I enjoy playing piano, spending time
     height: auto;
   }
 
-  p {
-    text-align: center;
-  }
-
 
   @media only screen and (max-width: 600px) {
     p {
