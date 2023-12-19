@@ -7,7 +7,7 @@ about:
   image-shape: round
   links:
     - icon: github
-      href: https://github.com/yourusername
+      href: https://github.com/MarshallRoll
 personal: 
   id: personal
 ---

@@ -1,0 +1,47 @@
+---
+title: "Experiences and Skills"
+page-layout: full
+title-block-banner: true
+comments: false
+---
+
+::: {#Experiences}
+## Experiences
+
+**Statistics Teaching Assistant | Macalester College**
+
+Supported over 100 students in Macalester College’s Introduction to Statistical Modeling course by hosting office hours, coaching students to use RStudio for statistics, and providing feedback to help build statistical communication skills surrounding topics such as interaction terms, logistic regression, and bootstrapping. 
+
+**Research Assistant | Macalester College**
+
+Led analysis of a longitudinal study analyzing effects of climate storytelling on attitudes toward climate change by wrangling raw data, performing paired t-tests and Cronbach’s Alpha, and creating relevant visualizations. I also worked on literature review to inform the study design process and directed questionnaire development. Additionally, I developed and presented a poster at a research showcase, communicating findings to a broad audience.
+
+**Technology Development Data Engineering Intern | Optum/UnitedHealth Group**                                
+Automated the process of ensuring that customer medical records are present across databases for STARS Data Mart, a clinical data repository, by creating an equivalency testing framework using SQL and Java and managed team organization by writing user stories and tasks for two four-week sprints on Rally.
+
+**Web Development Project Lead | Greener Pastures**
+
+Led the technical migration of the Greener Pastures website, modernizing and updating over 100 pages to reflect new company branding and messaging strategies, wireframing page designs in Figma and designing in ShowIt. Additionally, I assisted with technical needs and in-person event planning. 
+
+**Communications Intern | Global Health Ministries**    			
+
+Created a unified web communication strategy by identifying keywords and writing search optimization phrases to maximize the reach of the website.
+
+**Economics Teaching Assistant | Macalester College**
+
+Provided supplemental instruction for 15 students in Macalester College’s Principles of Economics course by hosting office hours and study sessions and graded papers to support the instructor.
+
+:::
+
+:::{#skills}
+## Skills
+**Programming Languages**: R, Python, Java, SQL
+
+**Software**: LaTeX, Mathematica, Microsoft Office, InDesign, Sony Vegas, and Adobe Creative Cloud programs, SPSS
+
+**Languages**: proficient in Spanish (certified B2)
+:::
+
+
+
+ 

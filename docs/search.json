@@ -1,5 +1,26 @@
 [
   {
+    "objectID": "experiences.html",
+    "href": "experiences.html",
+    "title": "Experiences and Skills",
+    "section": "",
+    "text": "Statistics Teaching Assistant | Macalester College\nSupported over 100 students in Macalester College’s Introduction to Statistical Modeling course by hosting office hours, coaching students to use RStudio for statistics, and providing feedback to help build statistical communication skills surrounding topics such as interaction terms, logistic regression, and bootstrapping.\nResearch Assistant | Macalester College\nLed analysis of a longitudinal study analyzing effects of climate storytelling on attitudes toward climate change by wrangling raw data, performing paired t-tests and Cronbach’s Alpha, and creating relevant visualizations. I also worked on literature review to inform the study design process and directed questionnaire development. Additionally, I developed and presented a poster at a research showcase, communicating findings to a broad audience.\nTechnology Development Data Engineering Intern | Optum/UnitedHealth Group\nAutomated the process of ensuring that customer medical records are present across databases for STARS Data Mart, a clinical data repository, by creating an equivalency testing framework using SQL and Java and managed team organization by writing user stories and tasks for two four-week sprints on Rally.\nWeb Development Project Lead | Greener Pastures\nLed the technical migration of the Greener Pastures website, modernizing and updating over 100 pages to reflect new company branding and messaging strategies, wireframing page designs in Figma and designing in ShowIt. Additionally, I assisted with technical needs and in-person event planning.\nCommunications Intern | Global Health Ministries\nCreated a unified web communication strategy by identifying keywords and writing search optimization phrases to maximize the reach of the website.\nEconomics Teaching Assistant | Macalester College\nProvided supplemental instruction for 15 students in Macalester College’s Principles of Economics course by hosting office hours and study sessions and graded papers to support the instructor."
+  },
+  {
+    "objectID": "experiences.html#experiences",
+    "href": "experiences.html#experiences",
+    "title": "Experiences and Skills",
+    "section": "",
+    "text": "Statistics Teaching Assistant | Macalester College\nSupported over 100 students in Macalester College’s Introduction to Statistical Modeling course by hosting office hours, coaching students to use RStudio for statistics, and providing feedback to help build statistical communication skills surrounding topics such as interaction terms, logistic regression, and bootstrapping.\nResearch Assistant | Macalester College\nLed analysis of a longitudinal study analyzing effects of climate storytelling on attitudes toward climate change by wrangling raw data, performing paired t-tests and Cronbach’s Alpha, and creating relevant visualizations. I also worked on literature review to inform the study design process and directed questionnaire development. Additionally, I developed and presented a poster at a research showcase, communicating findings to a broad audience.\nTechnology Development Data Engineering Intern | Optum/UnitedHealth Group\nAutomated the process of ensuring that customer medical records are present across databases for STARS Data Mart, a clinical data repository, by creating an equivalency testing framework using SQL and Java and managed team organization by writing user stories and tasks for two four-week sprints on Rally.\nWeb Development Project Lead | Greener Pastures\nLed the technical migration of the Greener Pastures website, modernizing and updating over 100 pages to reflect new company branding and messaging strategies, wireframing page designs in Figma and designing in ShowIt. Additionally, I assisted with technical needs and in-person event planning.\nCommunications Intern | Global Health Ministries\nCreated a unified web communication strategy by identifying keywords and writing search optimization phrases to maximize the reach of the website.\nEconomics Teaching Assistant | Macalester College\nProvided supplemental instruction for 15 students in Macalester College’s Principles of Economics course by hosting office hours and study sessions and graded papers to support the instructor."
+  },
+  {
+    "objectID": "experiences.html#skills",
+    "href": "experiences.html#skills",
+    "title": "Experiences and Skills",
+    "section": "Skills",
+    "text": "Skills\nProgramming Languages: R, Python, Java, SQL\nSoftware: LaTeX, Mathematica, Microsoft Office, InDesign, Sony Vegas, and Adobe Creative Cloud programs, SPSS\nLanguages: proficient in Spanish (certified B2)"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Marshall Roll",
