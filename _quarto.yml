@@ -10,7 +10,7 @@ website:
         text: Home
       - projects.qmd
       - href: experiences.qmd
-        text: experiences
+        text: Experiences
 
 format:
   html:
