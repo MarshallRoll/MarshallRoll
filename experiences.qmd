@@ -8,6 +8,8 @@ comments: false
 ::: {#Experiences}
 ## Experiences
 
+#### Work History
+
 **Statistics Teaching Assistant | Macalester College**
 
 Supported over 100 students in Macalester College’s Introduction to Statistical Modeling course by hosting office hours, coaching students to use RStudio for statistics, and providing feedback to help build statistical communication skills surrounding topics such as interaction terms, logistic regression, and bootstrapping. 
@@ -17,6 +19,7 @@ Supported over 100 students in Macalester College’s Introduction to Statistica
 Led analysis of a longitudinal study analyzing effects of climate storytelling on attitudes toward climate change by wrangling raw data, performing paired t-tests and Cronbach’s Alpha, and creating relevant visualizations. I also worked on literature review to inform the study design process and directed questionnaire development. Additionally, I developed and presented a poster at a research showcase, communicating findings to a broad audience.
 
 **Technology Development Data Engineering Intern | Optum/UnitedHealth Group**                                
+
 Automated the process of ensuring that customer medical records are present across databases for STARS Data Mart, a clinical data repository, by creating an equivalency testing framework using SQL and Java and managed team organization by writing user stories and tasks for two four-week sprints on Rally.
 
 **Web Development Project Lead | Greener Pastures**
@@ -31,13 +34,18 @@ Created a unified web communication strategy by identifying keywords and writing
 
 Provided supplemental instruction for 15 students in Macalester College’s Principles of Economics course by hosting office hours and study sessions and graded papers to support the instructor.
 
+#### Study Abroad
+
+**Universidad Nacional, Costa Rica**
+
+Studied at la Universidad Nacional in Heredia, Costa Rica for a semester with local students, engaging in an immersive language-learning experience while learning about a new culture.  
 :::
 
 :::{#skills}
 ## Skills
 **Programming Languages**: R, Python, Java, SQL
 
-**Software**: LaTeX, Mathematica, Microsoft Office, InDesign, Sony Vegas, and Adobe Creative Cloud programs, SPSS
+**Software and Platforms**: LaTeX, Mathematica, SPSS, Figma, Squarespace, ShowIt, Microsoft Office, InDesign, Sony Vegas, Adobe Creative Cloud programs
 
 **Languages**: proficient in Spanish (certified B2)
 :::
