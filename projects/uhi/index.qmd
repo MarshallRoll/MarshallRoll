@@ -1,0 +1,17 @@
+---
+title: "Spatial Analysis of Urban Heat Island in Twin Cities & Phoenix"
+author: "Marshall Roll, Wenxuan Zhu"
+date: '12/20/2023'
+image: featured.png
+image_alt: UHI in Minneapolis-St. Paul
+description: "Comparative analysis of demographics underlying UHI distribution using spatial autoregressive models"
+---
+
+
+This project was completed for Macalester College's Correlated Data course and analyzes the demographic factors underlying the urban heat island effect (UHI) in Minneapolis-St. Paul and Phoenix. The full write up can be found [here](https://github.com/MarshallRoll/College-Projects/blob/main/0_STAT452/Urban_Heat_Island/UHI_report_pdf.pdf).
+
+## Abstract
+
+The urban heat island effect (UHI) causes serious harm to human health and beyond and is unevenly distributed across American cities. Specifically, demographic trends point to disproportionate burden among certain groups, such as low-income individuals, renters, and people of color. This report seeks to provide a rigorous spatial analysis of these trends in Minneapolis-St. Paul and Phoenix and to compare model similarity and performance between these two
+cities. Our analysis confirms that race, income, and house value are significantly connected to UHI distribution, but individual spatial models can help to pinpoint unique distribution patterns by city that can then be used to inform policy implementation.
+

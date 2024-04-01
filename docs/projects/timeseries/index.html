@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.353">
+<meta name="generator" content="quarto-1.3.450">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -77,7 +77,8 @@ div.csl-indent {
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
     "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit"
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
   }
 }</script>
 
@@ -207,6 +208,10 @@ div.csl-indent {
 </div>
 <p>The seasonal variations can be seen in Figure 2, which highlights that energy use tends to be higher in the winter months and lower in the summer months, when demand for energy is lower due to the lack of students on-campus and need for constant heating.</p>
 <div class="cell" data-layout-align="center">
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning in geom_rect(aes(xmin = 5, xmax = 8, ymin = 10000, ymax = 40000), : All aesthetics have length 1, but the data has 123 rows.
+ℹ Did you mean to use `annotate()`?</code></pre>
+</div>
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
@@ -264,15 +269,7 @@ div.csl-indent {
 </div>
 <p>After fitting all 3 models, we find that they all have similar BIC values (AR(2): 17.72942, MA(1): 17.70742, ARMA: 17.70663), indicating that they all fit the data relatively well. Q-Q plots indicate that all the models fit fairly well, and the residual plot shows that there is only one large outlier, constant across all models. The p-values are highest for the ARMA model, but seem to be around or below 0.05 for almost all values of all models. Thus, we opted for the simplest model, MA(1), as we determine that the goodness of fit is not improved enough in more complicated models.</p>
 <p>Using the MA(1) model in conjunction with the above trend and seasonality models, we can generate a complete time series model that can be used for future forecasting. Forecasts are displayed in Figure 6 for two years after the end of the measurement period, with two standard errors displayed in red.</p>
-<div class="cell" data-layout-align="center">
-<div class="cell-output-display">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="index_files/figure-html/unnamed-chunk-11-1.png" class="img-fluid figure-img" width="672"></p>
-</figure>
-</div>
-</div>
-</div>
+<p><img src="featured.png" alt="Forecast Image" width="80%" height="80%"></p>
 </section>
 <section id="conclusions" class="level2">
 <h2 class="anchored" data-anchor-id="conclusions">Conclusions</h2>

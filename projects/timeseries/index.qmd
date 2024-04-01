@@ -224,36 +224,40 @@ X <- model.matrix(trend.mod)[,-1] # removes intercept column
 After fitting all 3 models, we find that they all have similar BIC values (AR(2): 17.72942, MA(1): 17.70742, ARMA: 17.70663), indicating that they all fit the data relatively well. Q-Q plots indicate that all the models fit fairly well, and the residual plot shows that there is only one large outlier, constant across all models. The p-values are highest for the ARMA model, but seem to be around or below 0.05 for almost all values of all models. Thus, we opted for the simplest model, MA(1), as we determine that the goodness of fit is not improved enough in more complicated models. 
 
 ```{r echo = FALSE, fig.show='hide', results = 'hide', fig.align='center'}
-new_date <- data.frame(
-  date = seq(from = 2023.162 + 1/12, by = 1/12, length.out = 24), 
-  month = c(4:12, 1:12, 1:3)
-)
+# new_date <- data.frame(
+#   date = seq(from = 2023.162 + 1/12, by = 1/12, length.out = 24), 
+#   month = c(4:12, 1:12, 1:3)
+# )
+# 
+# new_X <- model.matrix(~bs(date, degree = 2, knots = c(2018, 2021),
+#                                  Boundary.knots = c(
+#                               min(date),
+#                               max(date) + 24/12)
+#                               ) + as.factor(month), data = new_date)[,-1] 
 
-new_X <- model.matrix(~bs(date, degree = 2, knots = c(2018, 2021),
-                                 Boundary.knots = c(
-                              min(date),
-                              max(date) + 24/12)
-                              ) + as.factor(month), data = new_date)[,-1] 
+# prediction_df <- sarima.for(df_Leonard$use_per_day,p=0,d=0,q=1, xreg = X, newxreg = new_X, n.ahead = 24) %>% 
+#   as.data.frame() %>% 
+#   cbind(new_date) 
 
-prediction_df <- sarima.for(df_Leonard$use_per_day,p=0,d=0,q=1, xreg = X, newxreg = new_X, n.ahead = 24) %>% 
-  as.data.frame() %>% 
-  cbind(new_date) 
+# seems like this doesn't work anymore? 
 ```
 
 Using the MA(1) model in conjunction with the above trend and seasonality models, we can generate a complete time series model that can be used for future forecasting. Forecasts are displayed in Figure 6 for two years after the end of the measurement period, with two standard errors displayed in red.
 
 ```{r, fig.align='center'}
-df_Leonard %>% 
-  ggplot() +
-  geom_line(aes(x = date, y = use_per_day)) +
-  geom_line(data = prediction_df, aes(x = date, y = pred), color = 'red') + 
-  geom_ribbon(data = prediction_df, aes(x= date, ymin = pred - 2*se, ymax = pred + 2*se), fill = 'red', alpha = 0.2) +
-  labs(x = "Year", y = "Use Per Day (kWh)", 
-       title = "Macalester Forecasted Average Daily Energy Use", 
-       caption = "Figure 6: Average daily energy usage per month, measured in kWh, from January 2013 to March 2023.\nForecasted values for April 2023 to March 2025, with red error margin representing 2 standard errors.") +
-  theme(plot.title = element_text(hjust = 0.5)) +
-  theme(plot.caption = element_text(hjust = 0.5)) 
+# df_Leonard %>% 
+#   ggplot() +
+#   geom_line(aes(x = date, y = use_per_day)) +
+#   geom_line(data = prediction_df, aes(x = date, y = pred), color = 'red') + 
+#   geom_ribbon(data = prediction_df, aes(x= date, ymin = pred - 2*se, ymax = pred + 2*se), fill = 'red', alpha = 0.2) +
+#   labs(x = "Year", y = "Use Per Day (kWh)", 
+#        title = "Macalester Forecasted Average Daily Energy Use", 
+#        caption = "Figure 6: Average daily energy usage per month, measured in kWh, from January 2013 to March 2023.\nForecasted values for April 2023 to March 2025, with red error margin representing 2 standard errors.") +
+#   theme(plot.title = element_text(hjust = 0.5)) +
+#   theme(plot.caption = element_text(hjust = 0.5)) 
 ```
+<img src="featured.png" alt="Forecast Image" width="80%" height="80%">
+
 
 
 ## Conclusions

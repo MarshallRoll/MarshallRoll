@@ -2,6 +2,7 @@
   {
     "listing": "/projects.html",
     "items": [
+      "/projects/uhi/index.html",
       "/projects/spatial/index.html",
       "/projects/longitudinal/index.html",
       "/projects/timeseries/index.html",
